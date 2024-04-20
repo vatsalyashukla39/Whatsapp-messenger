@@ -13,4 +13,3 @@ def send_whatsapp_message(phone_number, message, date, time):
         print("Message scheduled successfully!")
     except Exception as e:
         print("An error occurred:", e)
-

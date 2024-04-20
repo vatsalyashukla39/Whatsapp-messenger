@@ -1,4 +1,7 @@
 # messenger.py
+# frontend.py
+import matplotlib
+matplotlib.use('agg')
 import streamlit as st
 from backend import send_whatsapp_message
 
@@ -21,4 +24,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

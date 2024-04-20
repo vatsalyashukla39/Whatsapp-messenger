@@ -2,9 +2,11 @@
 # frontend.py
 import matplotlib
 matplotlib.use('agg')
+import os
 import streamlit as st
 from backend import send_whatsapp_message
 
+os.environ['DISPLAY'] = ':0'
 
 def main():
     st.title("WhatsApp-Messenger")
